@@ -1,0 +1,14 @@
+{
+  "name": "zkagent",
+  "version": "1.0.0",
+  "description": "ZKAgent - On-chain AI Agent with ZK verification placeholder",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}.
